@@ -3,9 +3,8 @@ plugins {
     id 'org.springframework.boot' version '3.0.4'
 }
 
-group 'com.lain'
+group 'com.lain.learn'
 version '1.0-SNAPSHOT'
-sourceCompatibility = '17'
 
 repositories {
     maven {
@@ -33,7 +32,6 @@ dependencies {
     implementation 'org.projectlombok:lombok:1.18.26'
     annotationProcessor 'org.projectlombok:lombok:1.18.26'
 
-    //testCompile 'junit:junit:4.13.2'
+    testImplementation 'junit:junit:4.13.2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test:3.0.4'
-    //testImplementation 'ch.qos.logback:logback-classic:1.2.3'
 }
